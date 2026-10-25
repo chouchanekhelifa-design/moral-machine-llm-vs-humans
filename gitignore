@@ -1,0 +1,17 @@
+# Raw and derived data: do not publish (size and licence terms)
+*.csv
+*.parquet
+*.xlsx
+mmllm_data/
+mmllm-main/
+out_*/
+outputs/
+
+# Keep the small figures shown in the README
+!figures/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
