@@ -1,0 +1,12 @@
+*.csv
+*.parquet
+*.xlsx
+mmllm_data/
+mmllm-main/
+out_*/
+outputs/
+!figures/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
